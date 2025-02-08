@@ -79,6 +79,6 @@ cd src
 make -f makefile.unix USE_UPNP=1 \
     BDB_INCLUDE_PATH=${BDB_INCLUDE_PATH} \
     BDB_LIB_PATH=${BDB_LIB_PATH} \
-    -j4
+    -j4 bitcoind
 
 echo "Bitcoin build completed successfully."
