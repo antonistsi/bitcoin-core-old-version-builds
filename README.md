@@ -15,7 +15,7 @@ docker build -t bitcoin-core-0.4.0 .
 You probably want to use a blockchain data directory downloaded beforehand:
 
 ```sh
-docker run -it --rm -v /path/to/bitcoin/data:/root/.bitcoin -v /path/to/bitcoin.conf:/root/.bitcoin/bitcoin.conf bitcoin-setup bash
+docker run -it --rm -v /path/to/bitcoin/data:/root/.bitcoin -v /path/to/bitcoin.conf:/root/.bitcoin/bitcoin.conf bitcoin-core-0.4.0 bash
 ```
 
 ```sh
